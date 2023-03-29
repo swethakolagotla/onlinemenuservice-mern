@@ -1,0 +1,151 @@
+.container {
+  width: 200px;
+  height: 450px;
+  background-color: #1e1b26;
+  margin: 60px auto 0 auto;
+  border-radius: 25px;
+  transform: scale(0.95);
+  transition: all 0.5s;
+}
+.container:hover {
+  transform: scale(1);
+  box-shadow: 0 5px 10px -12.125px rgba(0, 0, 0, 0.2);
+}
+.menu-rating {
+  position: absolute;
+  right: 12px;
+  top: 6px;
+  z-index: 999;
+}
+img {
+  width: 100%;
+  height: 250px;
+}
+.menu-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 111 !important;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  mask-image: none;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgba(0, 0, 0, 1)),
+    color-stop(0.35, rgba(0, 0, 0, 1)),
+    color-stop(0.5, rgba(0, 0, 0, 1)),
+    color-stop(0.65, rgba(0, 0, 0, 1)),
+    color-stop(0.85, rgba(0, 0, 0, 0.6)),
+    color-stop(1, rgba(0, 0, 0, 0))
+  );
+  position: relative;
+}
+.menu {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+39,1e1b26+53&0+38,1+55 */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#1e1b26',GradientType=0 );
+
+  box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  background-size: contain;
+  background-size: cover;
+  z-index: 1 !important;
+  width: 300px;
+  height: 450px;
+  display: block;
+  border-radius: 25px;
+}
+
+.text-menu-cont {
+  padding: 0px 12px;
+  text-align: justify;
+}
+.rating {
+  color: #e06ba2;
+  font-size: 30px;
+}
+.watch-btn {
+  display: block;
+  border: 1px solid #e06ba2;
+  border-radius: 5px;
+  padding: 4px;
+  width: 120px;
+  cursor: pointer;
+  color: #29f5b1;
+}
+.watch-btn:hover {
+  background-color: #e06ba2;
+}
+.watch-btn:hover h3 {
+  color: #e7e7e7;
+}
+.action-row {
+  margin-top: 20px;
+}
+.btn-2{
+  display: block;
+  border: 1px solid #00ffaa;
+  border-radius: 5px;
+  padding: 4px;
+  width: 200px;
+  margin:30px 1100px;
+  text-align: center;
+  background-color: crimson;
+  font-size:20px;
+  cursor: pointer;
+  color:#ffffff;
+}
+h2 {
+  font-family: "Bree Serif", serif;
+  color: #e7e7e7;
+  margin: 0px;
+}
+ 
+h2 {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.menu-gen {
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-gen p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  width: auto;
+  display: block;
+  float: left;
+  margin-right: 6px;
+  font-weight: 600;
+}
+
+.mr-grid {
+  width: 100%;
+}
+.mr-grid:before,
+.mr-grid:after {
+  content: "";
+  display: table;
+}
+.mr-grid:after {
+  clear: both;
+}
+.mr-grid {
+  *zoom: 1;
+}
+
+.col1 {
+  margin: 0% 0.5% 0.5% 0.5%;
+  padding: 1%;
+  float: left;
+  display: block;
+}
+
+.col1 {
+  width: 98%;
+}

@@ -1,0 +1,17 @@
+.btn{
+  display: block;
+  border: 1px solid #00ffaa;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: aqua;
+  width: 150px;
+  font-size:30px;
+  margin:40px 1100px    ;
+  cursor: pointer;
+  color:#79046f;
+}
+.btn:hover{
+  background-color: hotpink;
+  color:white;
+}
+ 

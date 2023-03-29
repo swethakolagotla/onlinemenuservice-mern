@@ -1,0 +1,12 @@
+.btn-4{
+  display: block;
+  border: 1px solid #00ffaa;
+  border-radius: 5px;
+  padding: 4px;
+  width: 200px;
+  background-color: crimson;
+  font-size:20px;
+  cursor: pointer;
+    margin: 30px 450px;
+  color:#ffffff;
+}
